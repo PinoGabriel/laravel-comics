@@ -44,3 +44,19 @@ body {
 .myLogoImg {
     height: 80px;
 }
+
+#jumboFooter {
+    background-image: url(../assets/images/footer-bg.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 45vh;
+}
+
+.logoFooter {
+    background-image: url(../assets/images/dc-logo-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 45vh;
+}

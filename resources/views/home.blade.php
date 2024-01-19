@@ -26,6 +26,19 @@
             @endforeach
         </div>
     </section>
-    
+
+    <section id="jumboFooter">
+        <div class="container">
+            <div class="logoFooter">
+                @foreach ($index as $indexFooter)
+                    <h4>{{ $indexFooter['title'] }}</h4>
+                    @foreach ($indexFooter['i'] as $item)
+                        <a> {{$item}} </a>
+                    @endforeach
+                @endforeach
+            </div>
+        </div>
+    </section>
+
 @endsection
 

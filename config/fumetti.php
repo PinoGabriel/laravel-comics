@@ -133,5 +133,23 @@ return [
             "desc" => "dc power visa"
         ],
 
+    ],
+    "index" => [
+        [
+            "title" => "DC COMIC",
+            "i" => ["Characters", "Comics", "Movies", "TV", "Games", "Videos", "News",]
+        ],
+        [
+            "title" => "SHOP",
+            "i" => ["Shop DC", "Shop DC Collectribles"]
+        ],
+        [
+            "title" => "DC",
+            "i" => ["Terms Of Use", "Privacy policy (New)", "Ad Choices", "Advertising", "Jobs", "Subsctiptions", "Talent Workshops", "CPSC Cerificates", "Ratings", "Shop Help", "Contact Us"]
+        ],
+        [
+            "title" => "SITES",
+            "i" => ["DC", "MAD Magazine", "DC Kids", "DC Universe", "DC Power Visa"]
+        ],
     ]
 ];

@@ -16,5 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $dati = config("fumetti.dati");
     $loghi = config("fumetti.loghi");
-    return view('home', compact('dati', 'loghi'));
+    $index = config("fumetti.index");
+    return view('home', compact('dati', 'loghi', 'index'));
 })->name("home");
