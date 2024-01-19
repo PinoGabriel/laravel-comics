@@ -31,3 +31,16 @@ body {
     object-fit: cover;
     object-position: top;
 }
+
+#myLoghi {
+    background-color: #0282F9;
+}
+
+.myLogo {
+    padding: 5px;
+    width: calc(100% / 5 - 10px);
+}
+
+.myLogoImg {
+    height: 80px;
+}
