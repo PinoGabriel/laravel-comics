@@ -21,8 +21,8 @@ body {
 }
 
 .myCard {
-    padding: 5px;
-    width: calc(100% / 6 - 10px);
+    padding: 10px;
+    width: calc(100% / 6 - 20px);
 }
 
 .myImgThumb {
@@ -51,12 +51,23 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    height: 45vh;
 }
 
 .logoFooter {
     background-image: url(../assets/images/dc-logo-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    height: 45vh;
+    height: 350px;
+}
+
+.myW40 {
+    width: 40%;
+}
+
+.myHeightLogo {
+    height: 350px;
+}
+
+.myHeight {
+    height: 350px;
 }
