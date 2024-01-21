@@ -3,7 +3,8 @@
 @section('content')
 
     <section id="myCards">
-        <div class="container d-flex flex-wrap py-5">
+        <div class="container position-relative d-flex flex-wrap py-5">
+            <div class="seriesAbsolute position-absolute text-white">CURRENT SERIES</div>
             @foreach ($dati as $dato)
                 <div class="myCard">
                     <img class="myImgThumb" src={{ $dato['thumb'] }} alt="">
@@ -17,7 +18,7 @@
     </section>
 
     <section id="myLoghi">
-        <div class="container d-flex py-3 justify-content-between align-items-center">
+        <div class="container d-flex p-5 justify-content-between align-items-center">
             @foreach ($loghi as $logo)
                 <div class="d-flex align-items-center">
                     <img class="myLogoImg" src={{ $logo['img'] }} alt="">
