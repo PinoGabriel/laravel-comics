@@ -22,5 +22,8 @@
 
     @yield('content')
 
+    @include('partials.jumboFooter')
+    @include('partials.footer')
+
 </body>
 </html>

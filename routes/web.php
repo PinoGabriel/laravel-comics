@@ -17,5 +17,6 @@ Route::get('/', function () {
     $dati = config("fumetti.dati");
     $loghi = config("fumetti.loghi");
     $index = config("fumetti.index");
-    return view('home', compact('dati', 'loghi', 'index'));
+    $footer = config("fumetti.footer");
+    return view('home', compact('dati', 'loghi', 'index', 'footer'));
 })->name("home");

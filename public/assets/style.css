@@ -71,3 +71,19 @@ body {
 .myHeight {
     height: 350px;
 }
+
+#footerBg {
+    background-color: #303030;
+}
+
+.signUp {
+    border: 2px solid #0282F9;
+    font-size: large;
+    font-weight: 600;
+}
+
+.followUs {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0282F9;
+}

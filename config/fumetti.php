@@ -151,5 +151,8 @@ return [
             "title" => "SITES",
             "i" => ["DC", "MAD Magazine", "DC Kids", "DC Universe", "DC Power Visa"]
         ],
+    ],
+    "footer" => [
+        "/assets/images/footer-facebook.png", "/assets/images/footer-twitter.png", "/assets/images/footer-youtube.png", "/assets/images/footer-pinterest.png", "/assets/images/footer-periscope.png"
     ]
 ];
